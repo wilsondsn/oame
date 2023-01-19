@@ -20,13 +20,6 @@ header img {
     border: none;
 }
 
-#ejes {
-    background-image: url(../img/bg-ejes.jpg);
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
-}
-
 .contacto .card {
     background-color: #00a750!important;
     transition: .2s;
