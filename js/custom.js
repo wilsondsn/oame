@@ -16,7 +16,5 @@ $("#programas-button").click(function(){
   $("#oame").removeClass("show");
 });
 
-$('.parallax-window').parallax({imageSrc: './img/bg-ejes.jpg'});
-
 
 }); //
