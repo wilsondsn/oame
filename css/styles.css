@@ -1,0 +1,110 @@
+body {
+    background-color: #352b62;
+    background-image: url(../img/izq.png), url(../img/der.png);
+    background-position: left top, right top;
+    background-repeat: no-repeat;
+}
+
+header img {
+  max-width: 150px;
+}
+
+.proximamente {
+    color: #fbff00;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.btn-primary{
+    background-color: #e06a1b;
+    border: none;
+}
+
+#ejes {
+    background-image: url(../img/bg-ejes.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.contacto .card {
+    background-color: #00a750!important;
+    transition: .2s;
+    text-decoration: none;
+}
+
+.contacto .card:hover {
+    background-color: #e06a1b!important;
+}
+
+
+footer img {
+  max-width: 500px;
+  width: 100%;
+}
+
+section.botones {
+    margin-top: 4%;
+}
+
+section {
+  margin: 6% 0;
+}
+
+#programas img {
+  max-width: 220px;
+}
+
+#ejes img {
+    max-height: 90px;
+}
+
+#programas img, #ejes img {
+  margin: 0 auto;
+  display: block;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.contacto .card {
+  padding: 20px;
+}
+
+footer {
+  background: #2f354a url(../img/noise.png);
+  border-top: 1px solid #afafaf;
+  -webkit-box-shadow: inset 0 5px 12px rgb(0 0 0 / 13%);
+  -moz-box-shadow: inset 0 5px 12px rgba(0, 0, 0, 0.13);
+  box-shadow: inset 0 5px 12px rgb(0 0 0 / 13%);
+  padding: 30px 0;
+}
+
+footer p {
+  margin-bottom: 0;
+}
+
+@media only screen and (max-width:770px) {
+  #ejes img {
+    margin: initial;
+}
+
+#ejes .col-md-3 {
+    max-width: 200px;
+    margin: 10px auto;
+}
+
+.text-justify {
+  text-align: left;
+}
+
+}
+
+@media only screen and (max-width:667px) {
+
+  body {
+    background-image: none;
+  }
+
+}
