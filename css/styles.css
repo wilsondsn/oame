@@ -23,7 +23,6 @@ header img {
 #ejes {
     background-image: url(../img/bg-ejes.jpg);
     background-position: center;
-    background-attachment: fixed;
     background-size: cover;
 }
 
