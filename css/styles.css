@@ -23,12 +23,12 @@ h2, h3, h4, h5 {
     margin-top: 20px;
 }
 
-#programas h4 {
+#programas h4, #apoyos h4, #oame h4 {
     margin-bottom: 40px;
     color: #000;
 }
 
-#programas h5 {
+#programas h5, #apoyos h5, #oame h5 {
     color: #352b62;
     font-weight: 800;
 }
