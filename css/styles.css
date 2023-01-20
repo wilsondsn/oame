@@ -1,8 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;0,800;1,300&display=swap');
+
 body {
     background-color: #352b62;
     background-image: url(../img/izq.png), url(../img/der.png);
     background-position: left top, right top;
     background-repeat: no-repeat;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-weight: 800;
+}
+
+h2, h3, h4, h5 {
+  font-weight: 700;
+}
+
+#oame h5, #apoyos h5 {
+    margin-top: 20px;
+}
+
+#programas h4 {
+    margin-bottom: 40px;
+    color: #000;
+}
+
+#programas h5 {
+    color: #352b62;
+    font-weight: 800;
+}
+
+#programas li b {
+    font-weight: 400;
+    font-style: italic;
+}
+
+#programas hr {
+    margin: 40px 0;
 }
 
 header img {
