@@ -63,6 +63,21 @@ header img {
     background-size: cover;
 }
 
+.ejes-transversales {
+    border: 1px solid;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    text-align: center;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.ejes-transversales img {
+    display: inline-block!important;
+    margin: 0px 10px!important;
+}
+
 .contacto .card {
     background-color: #00a750!important;
     transition: .2s;
