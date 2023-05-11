@@ -7,6 +7,10 @@ body {
     background-repeat: no-repeat;
 }
 
+.contacto {
+  backgound-color: #352b62!important;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Open Sans', sans-serif;
 }
